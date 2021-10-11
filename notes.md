@@ -11,3 +11,7 @@ The Hardhat Runtime Environment, or HRE for short, is an object containing all t
 So what does this mean? Well, every time you run a terminal command that starts with `npx hardhat` you are getting this hre object built on the fly using the `hardhat.config.js` specified in your code! This means you will never have to actually do some sort of import into your files like:
 
 `const hardhat = require("hardhat")`
+
+## Transactions
+
+So, when we want to perform an action on the Ethereum blockchain we call it a transaction. For example, sending someone Ethereum is a transaction. Doing something that updates a variable in our contract is also considered a transaction.
